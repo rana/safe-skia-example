@@ -1,0 +1,7 @@
+[package]
+name = "safe-skia-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+skia-safe = { version = "0.75.0", features = ["svg", "textlayout", "webp"] }
